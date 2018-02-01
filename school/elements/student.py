@@ -11,7 +11,7 @@ class Student(Person):
         self.__grades: List[int] = []
 
     def __str__(self) -> str:
-        return "Student: " + self.name + "\tAddress = " + self.address
+        return "Student{name:  " + self.name + ", address: " + self.address + '}'
 
     def add_course_grade(self, course: str, grade: int):
         self.__courses.append(course)
