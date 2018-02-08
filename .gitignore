@@ -1,3 +1,4 @@
 .idea
 venv
 school/elements/__pycache__/
+school/routes/__pycache__/
