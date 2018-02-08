@@ -2,11 +2,9 @@ from typing import List
 
 from elements.person import Person
 
-
 class Student(Person):
     def __init__(self, name: str, address: str):
         super().__init__(name, address)
-        self.__numCourses: int = 0
         self.__courses: List[str] = []
         self.__grades: List[int] = []
 

@@ -19,4 +19,4 @@ class Person:
         self.__address = address
 
     def __str__(self) -> str:
-        return "Name: " + self.__name + "\tAddress: " + self.address
+        return "Person:{name: " + self.__name + ", address: " + self.address + '}'

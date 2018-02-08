@@ -13,3 +13,6 @@ class Teacher(Person):
             self.__courses.append(course)
             return True
         return False
+
+    def __str__(self) -> str:
+        return "Teacher{courses: " + self.__courses + " }"
